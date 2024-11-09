@@ -1,0 +1,42 @@
+name: clients
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.3.3+1
+  flutter_bloc: ^8.1.6
+  path_provider: ^2.1.5
+  font_awesome_flutter: ^10.7.0
+  meta: ^1.12.0
+  intl: ^0.19.0
+  flutter_local_notifications: ^18.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^4.0.0
+
+#flutter_launcher_icons:
+#  android: true
+#  ios: true
+#  image_path: "assets/icon/icon.png"  # Primary icon image for iOS and fallback for Android
+#  min_sdk_android: 21  # Required minimum SDK for adaptive icons
+#  adaptive_icon_background: "#00A881"  # Set a background color (match the background in your icon)
+#  adaptive_icon_foreground: "assets/icon/icon.png"  # Use the main icon image for the foreground
+#
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Netflix.png
